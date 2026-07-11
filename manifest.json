@@ -1,8 +1,4 @@
 
-# ============================================
-# 3. manifest.json - PWA Manifest
-# ============================================
-manifest_json = '''{
   "name": "InventarisKu - Manajemen Stok",
   "short_name": "InventarisKu",
   "description": "Aplikasi manajemen inventaris barang dengan sinkronisasi Google Drive",
@@ -99,5 +95,3 @@ manifest_json = '''{
 
 with open(f"{output_dir}/manifest.json", "w", encoding="utf-8") as f:
     f.write(manifest_json)
-
-print("✅ manifest.json created")
