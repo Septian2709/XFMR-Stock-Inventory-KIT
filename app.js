@@ -791,5 +791,3 @@ window.onload = function() {
 
 with open(f"{output_dir}/app.js", "w", encoding="utf-8") as f:
     f.write(app_js)
-
-print("✅ app.js created")
